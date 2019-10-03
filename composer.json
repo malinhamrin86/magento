@@ -14,7 +14,7 @@
         "magento/product-community-edition": "2.3.2",
         "mageplaza/module-banner-slider": "^2.0",
         "mageplaza/module-core": "^1.4",
-        "mageplaza/module-gdpr": "^1.2"
+        "mageplaza/module-gdpr": "1.2.3"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",
@@ -64,12 +64,16 @@
     },
     "version": "2.3.2",
     "minimum-stability": "stable",
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        "localGDPR": {
+            "type": "git",
+            "url": "git@github.com:malinhamrin86/gdpr.git"
         }
-    ],
+    },
     "extra": {
         "magento-force": "override"
     }

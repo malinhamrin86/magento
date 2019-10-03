@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cdeff37693c5a7f97cb20143cd5aee7",
+    "content-hash": "4eec08038b01a5df3e847e9dda59d0f8",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -10209,14 +10209,20 @@
         },
         {
             "name": "mageplaza/module-gdpr",
-            "version": "1.2.2",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-gdpr.git",
+                "reference": "2a9ead81f2745eedaac95fe3b2f1e3fb0bde00f2"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/mageplaza/module-gdpr/mageplaza-module-gdpr-1.2.2.0.zip",
-                "shasum": "59876cb66885eb035e9252a3218bb913c07f7789"
+                "url": "https://api.github.com/repos/mageplaza/magento-2-gdpr/zipball/2a9ead81f2745eedaac95fe3b2f1e3fb0bde00f2",
+                "reference": "2a9ead81f2745eedaac95fe3b2f1e3fb0bde00f2",
+                "shasum": ""
             },
             "require": {
-                "mageplaza/module-core": "^1.4.4"
+                "mageplaza/module-core": "^1.4.5"
             },
             "type": "magento2-module",
             "autoload": {
@@ -10227,6 +10233,7 @@
                     "Mageplaza\\Gdpr\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -10238,7 +10245,8 @@
                     "role": "Technical Support"
                 }
             ],
-            "description": "Magento 2 GDPR Extensions"
+            "description": "Magento 2 GDPR Extensions",
+            "time": "2019-08-26T08:39:03+00:00"
         },
         {
             "name": "monolog/monolog",
